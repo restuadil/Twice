@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <!-- link icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- link AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- link css  -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -43,7 +45,7 @@
 
     <!-- profile -->
     <section class="jumbotron text-center" id="home">
-      <img src="./img/tzuyu.jpeg" alt="profile" width="200" class="rounded-circle img-thumbnail" />
+      <img src="./img/tzuyu.jpeg" alt="profile" width="200" class="rounded-circle img-thumbnail " data-aos="flip-left"/>
       <h1 class="display-4">Chou Tzu-yu | 쯔위</h1>
       <p class="lead">Singer | TwiceJYP Nation</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -151,6 +153,9 @@
     <footer class="footer text-center p-3">
       <a href="https://www.instagram.com/thinkaboutzu" class="btn btn-light">You Can Follow Me <i class="bi bi-instagram text-danger"></i></a>
     <!-- end footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script><script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
