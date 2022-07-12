@@ -1,12 +1,17 @@
 body {
-  min-height: 2000px;
 }
 
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
 }
-
 .aboutme {
-  padding-top: 30rem;
+  padding-top: none;
+}
+section {
+  padding-top: 2rem;
+}
+
+.footer {
+  background-color: #e2edff;
 }
