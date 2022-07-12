@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Portfolio | Chou Tzu-yu</title>
+    <!-- css bosstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- link AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="body">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-info fixed-top">
+      <div class="container">
+        <a class="navbar-brand">Chou Tzu-yu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myalbum" id="My Projects">My Albums</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- profile -->
+    <section class="jumbotron text-center" id="home">
+      <img src="./img/tzuyu.jpeg" alt="profile" width="200" class="rounded-circle img-thumbnail " data-aos="flip-left"/>
+      <h1 class="display-4">Chou Tzu-yu | 쯔위</h1>
+      <p class="lead">Singer | TwiceJYP Nation</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,192L40,165.3C80,139,160,85,240,69.3C320,53,400,75,480,101.3C560,128,640,160,720,144C800,128,880,64,960,69.3C1040,75,1120,149,1200,160C1280,171,1360,117,1400,90.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End prfile -->
+
+    <!-- about me -->
+    <section class="aboutme" id="about me">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col shadow-sm p-3 mb-5 bg-body rounded"><h2>About Me</h2></div>
+        </div>
+        <div class="row justify-content-center text-justify">
+          <div class="col-md-4">
+            <p>
+              Chou Tzu-yu (Chinese: 周子瑜, born 14 June 1999), known mononymously as Tzuyu (Korean: 쯔위, Korean pronunciation: [t͈sɯ.ɥi]), is a Taiwanese singer based in South Korea. She is the only Taiwanese member of the girl group
+              Twice, formed by JYP Entertainment in 2015
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              Tzuyu was born in the East District of Tainan, Taiwan on 14 June 1999 to self-made entrepreneurs. She started dancing from a young age and trained at a dance academy In 2012, Tzuyu was discovered by talent scouts at the MUSE
+              Performing Arts Workshop in Tainan, and moved to South Korea in November of that year to begin training. In 2016, she passed an exam at Tainan Municipal Fusing Junior High School to certify her middle school education.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about me -->
+
+    <!-- my album -->
+    <section class="myalbum" id="myalbum">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="mb-4 shadow-sm p-3 mb-3 bg-body rounded" >My Albums</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4 mb-3 shadow-sm p-3 mb-3 bg-body rounded">
+            <img src="img/1.jpg" alt="1" />
+          </div>
+          <div class="col-md-4 mb-3 shadow-sm p-3 mb-3 bg-body rounded">
+            <img src="img/2.png " alt="2" />
+          </div>
+          <div class="col-md-4 mb-3 shadow-sm p-3 mb-3 bg-body rounded">
+            <img src="img/3.jpeg " alt="2" />
+          </div>
+        <div class="col-md-4 mb-3 shadow-sm p-3 mb-3 bg-body rounded">
+          <img src="img/4.jpg" alt="" />
+        </div>
+        <div class="col-md-4 shadow-sm p-3  bg-body rounded">
+          <img src="img/5.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end album -->
+
+    <!-- My song -->
+    <section class="" id="mysong">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="mb-4 " >Watch Me On YouTube</h2>
+          </div>
+        </div>
+      <div class="card container mb-3 col-sm-6 " style="width: 18rem;">
+        <img src="img/song 1.png" class="card-img-top mt-3" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">TWICE "TT"</h5>
+          <p class="card-text">TWICE(트와이스) "TT(티티)" M/V</p>
+          <p class="card-text">Copyrights 2016 ⓒ JYP Entertainment. </p>
+          <a href="https://youtu.be/ePpPVE-GGJw" class="btn btn-light"><i class="bi bi-youtube text-danger">  Watch On YouTube</i></a>
+        </div>
+      </div>
+      <div class="card container mb-3 col-sm-6 " style="width: 18rem;">
+        <img src="img/song 2.jpg" class="card-img-top mt-3" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">TWICE "What is Love?"</h5>
+          <p class="card-text">TWICE(트와이스) "What is Love?" M/V </p>
+          <p class="card-text">Copyrights 2016 ⓒ JYP Entertainment. </p>
+          <a href="https://youtu.be/i0p1bmr0EmE" class="btn btn-light"><i class="bi bi-youtube text-danger">  Watch On YouTube</i></a>
+        </div>
+      </div>
+      <div class="card container col-sm-6 " style="width: 18rem;">
+        <img src="img/song 3.jpg  " class="card-img-top mt-3" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">TWICE "CHEER UP"</h5>
+          <p class="card-text">TWICE(트와이스) "CHEER UP" M/V </p>
+          <p class="card-text">Copyrights 2016 ⓒ JYP Entertainment. </p>
+          <a href="https://youtu.be/c7rCyll5AeY" class="btn btn-light"><i class="bi bi-youtube text-danger">  Watch On YouTube</i></a>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,64L30,80C60,96,120,128,180,138.7C240,149,300,139,360,117.3C420,96,480,64,540,64C600,64,660,96,720,122.7C780,149,840,171,900,170.7C960,171,1020,149,1080,138.7C1140,128,1200,128,1260,128C1320,128,1380,128,1410,128L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    <!-- End My song -->
+
+    <!-- footer -->
+    <footer class="footer text-center p-3">
+      <a href="https://www.instagram.com/thinkaboutzu" class="btn btn-light">You Can Follow Me <i class="bi bi-instagram text-danger"></i></a>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script><script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
